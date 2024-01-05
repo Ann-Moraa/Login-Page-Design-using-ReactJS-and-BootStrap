@@ -1,0 +1,82 @@
+body {
+  background-color: #4475b7;
+  height: 100%;
+  width: 100%;
+}
+
+.my-5 {
+  margin-top: 5rem;
+}
+
+.g-0 {
+  gap: 0;
+}
+
+/* Carousel styles */
+.carousel-container {
+  max-height: 100%; /* Adjust this value based on your design */
+}
+
+/* Login details styles */
+.login-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff; /* Set a background color for the content */
+}
+
+.login-details-container .h1 {
+  font-weight: bold;
+}
+
+.login-details-container h5 {
+  font-weight: normal;
+  margin: 1.5rem 0;
+}
+
+.login-details-container .mb-4 {
+  margin-bottom: 1rem;
+}
+
+.login-details-container .px-5 {
+  margin-bottom: 1rem;
+  padding: 0.625rem 2.5rem;
+}
+
+.login-details-container p,
+.login-details-container a {
+  margin-bottom: 2rem;
+  color: #393f81;
+}
+
+.login-details-container a:hover {
+  color: #4475b7;
+}
+
+/* Custom styles for input fields */
+.login-details-container .form-label {
+  color: #393f81;
+}
+
+.login-details-container .form-control {
+  width: 100%;
+  max-width: 400px;
+  background-color: #f8f9fa; /* Grey background color for input fields */
+  color: #495057;
+  border-color: #ced4da;
+}
+
+/* Eye icon styles for password input */
+.login-details-container .eye-icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+/* Adjust the width of the sign-in button */
+.login-details-container .sign-in-btn {
+  width: 40%;
+  max-width: 400px;
+}
